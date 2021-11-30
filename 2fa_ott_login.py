@@ -36,5 +36,5 @@ response = requests.post('https://tradeapi.kotaksecurities.com/apim/session/1.0/
 user_session_token = response.json()['success']['sessionToken']
 
 
-print('Sessions token generated')
+print('Sessions token generated:',user_session_token)
 
